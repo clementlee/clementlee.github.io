@@ -1,0 +1,65 @@
+body
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-rendering: optimizeLegibility;
+	min-width: 640px;
+}
+
+h1
+{
+	text-align: center;
+	font-weight: 100;
+	font-size: 100px;
+}
+
+h2
+{
+	text-align:center;
+	font-weight:100;
+	font-size:30px;
+}
+
+a
+{
+	text-decoration: none;
+}
+a:link {color:#804BEB;} /* unvisited link */
+a:visited {color:#804BEB;} /* visited link */
+a:hover {color:#606060;} /* mouse over link */
+a:active {color:#606060;} /* selected link */
+
+
+#navcontainer ul
+{
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
+}
+
+.navlist li
+{
+	display: inline;
+	list-style-type: none;
+	padding: 30px;
+}
+
+.sm
+{
+	width:75px;
+	height:auto;
+}
+
+#smcontainer ul
+{
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
+}
+
+.smlist li
+{
+	display: inline;
+	list-style-type: none;
+	padding: 5px;
+}
