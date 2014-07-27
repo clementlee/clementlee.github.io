@@ -1,65 +1,94 @@
-body
-{
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	text-rendering: optimizeLegibility;
-	min-width: 640px;
+body {
+    font-family: 'Lato', sans-serif;
+    font-size:24px;
+}
+.header {
+    overflow:hidden;
+    background-color:#546991;
+    color:#fff;/*#FFEEBA;*/
 }
 
-h1
-{
-	text-align: center;
-	font-weight: 100;
-	font-size: 100px;
+.header .container {
+    padding:50px 25px;
 }
 
-h2
-{
-	text-align:center;
-	font-weight:100;
-	font-size:30px;
+.profpic {
+    width:300px;
 }
 
-a
-{
-	text-decoration: none;
-}
-a:link {color:#804BEB;} /* unvisited link */
-a:visited {color:#804BEB;} /* visited link */
-a:hover {color:#606060;} /* mouse over link */
-a:active {color:#606060;} /* selected link */
-
-
-#navcontainer ul
-{
-	margin: 0;
-	padding: 5px;
-	list-style-type: none;
+.headerpic {
+    float:left;
+    margin-right:25px;
 }
 
-.navlist li
-{
-	display: inline;
-	list-style-type: none;
-	padding: 30px;
+.headertext {
+    text-align:right;
+    float:right;
 }
 
-.sm
-{
-	width:75px;
-	height:auto;
+.headertext * {
+    font-weight:100;
 }
 
-#smcontainer ul
-{
-	margin: 0;
-	padding: 5px;
-	list-style-type: none;
+.headertext h1:first-child {
+    font-size:120px;
+    font-weight:100;
+    padding:0;
+    margin:0;
 }
 
-.smlist li
-{
-	display: inline;
-	list-style-type: none;
-	padding: 5px;
+.headertext h1, h2 {
+    vertical-align:middle;
+}
+
+.headertext h2 {
+}
+
+.headertext a {
+    padding-left:50px;
+    color:#fff;
+}
+
+.headertext a:hover {
+    color:#C8BCF7;
+    text-decoration:none;
+}
+
+.linkicons {
+    padding:50px;
+    font-size:32px;
+}
+
+.linkicons a {
+}
+
+.linkicon {
+    width:75px;
+    height:75px;
+    color:#fff;
+    vertical-align: middle;
+}
+
+.linkicon > i {
+    vertical-align:middle;
+    line-height:75px;
+}
+
+.twtricon {
+    background-color:#00aced;
+}
+.fbicon {
+    background-color:#3b5998;
+}
+.giticon {
+    background-color:#000;
+}
+.instaicon {
+    background-color:#517fa4;
+}
+.gplusicon {
+    background-color:#dd4b39;
+}
+.linicon {
+    background-color:#007bb6;
 }
