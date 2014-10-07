@@ -24,6 +24,7 @@ body {
 .headertext {
     text-align:right;
     float:right;
+    vertical-align:middle;
 }
 
 .headertext * {
@@ -37,12 +38,6 @@ body {
     margin:0;
 }
 
-.headertext h1, h2 {
-    vertical-align:middle;
-}
-
-.headertext h2 {
-}
 
 .headertext a {
     padding-left:50px;
