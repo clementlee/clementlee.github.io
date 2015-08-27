@@ -19,6 +19,12 @@ html {
     background-color:white;
 }
 
+.pure-g {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .pure-g [class*='pure-u'] {
     font-family: "Source Sans Pro", sans-serif;
     position:relative;
@@ -41,6 +47,9 @@ html {
     padding:2em;
     background-color:rgb(128, 88, 165);
     color:white;
-    display:flex;
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items:center;
     align-items:center;
 }
