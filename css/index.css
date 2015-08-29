@@ -3,24 +3,25 @@
 }
 
 html {
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility !important;
+    background-color: #212121;
 }
 
 #splash {
     width:100%;
-    height:300px;
-    background-color:cornflowerblue;
+    height:100px;
+    background-color:black;
 }
 
 #main {
     margin:0 auto;
     margin-top: -50px;
-    max-width:64em;
+    max-width:48em;
     background-color:white;
 }
 
 .pure-g {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -41,15 +42,38 @@ html {
     box-shadow: 0 0px 6px -6px black;
 }
 
-
-
-#infodiv {
+.textdiv {
     padding:2em;
-    background-color:rgb(128, 88, 165);
-    color:white;
-
     display: -webkit-flex;
     display: flex;
     -webkit-align-items:center;
     align-items:center;
+}
+
+.textdiv a {
+    color:#d4e157;
+}
+
+#infodiv {
+    background-color:#2196f3;
+    color:white;
+}
+
+#linkedindiv {
+    background-color: #ffeb3b;
+    color:black;
+}
+
+#githubdiv {
+    background-color: #8bc34a;
+}
+
+#creditdiv {
+    text-align:center;
+    background-color: #607d8b;
+    color:white;
+}
+
+.center {
+    margin:0 auto;
 }
